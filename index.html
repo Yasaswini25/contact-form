@@ -10,23 +10,22 @@
     </head>
     <body>
     <div class="container">
-        <h1>Contact form</h1>
-      <form action="mailto:jnanayasaswini@gmail.com" method="post">
+      <form action="mailto:jnanayasaswini@gmail.com?subject=Contact" method="post">
         <div class="input-group">
-            <input type="text" id="Name"  required>
+            <input type="text" id="Name" name="Name" required>
             <label for="Name"><i class="fas fa-user"></i> Name </label>
 
         </div>
         <div class="input-group">
-            <input type="text" id="Phone_number"  required>
+            <input type="text" id="Phone_number" name="Phone_no"  required>
             <label for="Phone_number"><i class="fas fa-phone-square-alt"></i> Phone number </label>
         </div>
         <div class="input-group">
-            <input type="text" id="Email Id"  required>
+            <input type="text" id="Email Id" name="email"  required>
             <label for="Email Id"><i class="fas fa-envelope"></i> Email Id </label>
         </div>
         <div class="input-group">
-           <textarea id="Message" rows="8" required></textarea>
+           <textarea id="Message" rows="8" name="Text"  required></textarea>
             <label for="Message"><i class="fas fa-comments"></i> Message </label>
         </div>
         <button type="Submit">SUBMIT<i class="fas fa-paper-plane"></i></button>
